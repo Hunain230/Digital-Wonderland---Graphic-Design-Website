@@ -16,20 +16,17 @@ This project is being developed locally. You can view it by opening the `index.h
 ├── portfolio.html    \
 ├── cart.html          
 
+|
+├── css  \
+ └── styles.css            
 
-├── css
-\
-│   └── styles.css            
-
-├── js
-\
+├── js     \
 │   └── script.js            
 
-└── assets
+||── assets
 \
-    ├── images/               
- \   
-    └── icons/              
+    ├── images             
+    └── icons             
 i have worked on this 
 this is correct one 
 check this out 
