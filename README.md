@@ -10,16 +10,11 @@ This project is being developed locally. You can view it by opening the `index.h
 DigitalWonderland/
 
 │
-├── index.html            
-\
-├── about.html            
-\
-├── products.html           
-\
-├── signin.html           
-\
-├── portfolio.html    
-\
+├── index.html            \
+├── about.html            \
+├── products.html           \
+├── signin.html           \
+├── portfolio.html    \
 ├── cart.html          
 
 
