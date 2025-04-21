@@ -11,32 +11,32 @@ DigitalWonderland/
 
 │
 \
-├── index.html               # Home Page
+├── index.html            
 \
-├── about.html               # About Us
+├── about.html            
 \
-├── products.html            # Our Products
+├── products.html           
 \
-├── signin.html              # Sign In / Sign Up
+├── signin.html           
 \
-├── portfolio.html      # Portfolio Gallery
+├── portfolio.html    
 \
-├── cart.html           # Shopping Cart
+├── cart.html          
 \
 
 ├── css/
 \
-│   └── styles.css             # Custom Styles
+│   └── styles.css            
 
 ├── js/
 \
-│   └── script.js              # Interactivity
+│   └── script.js            
 
 └── assets/
 \
-    ├── images/                # Graphic Assets
+    ├── images/               
  \   
-    └── icons/                 # Icon Set
+    └── icons/              
 
 ## ✨ Features
 
