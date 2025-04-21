@@ -10,32 +10,26 @@ This project is being developed locally. You can view it by opening the `index.h
 DigitalWonderland/
 
 │
-
-├── index.html          # Home Page
-
-├── about.html          # About Us
-
-├── products.html       # Our Products
-
-├── signin.html         # Sign In / Sign Up
-
+├── index.html               # Home Page
+├── about.html               # About Us
+├── products.html            # Our Products
+├── signin.html              # Sign In / Sign Up
 ├── portfolio.html      # Portfolio Gallery
-
 ├── cart.html           # Shopping Cart
 
 ├── css/
-
-│   └── styles.css      # Custom Styles
+\
+│   └── styles.css             # Custom Styles
 
 ├── js/
-
-│   └── script.js       # Interactivity
+\
+│   └── script.js              # Interactivity
 
 └── assets/
 \
-    ├── images/         # Graphic Assets
+    ├── images/                # Graphic Assets
  \   
-    └── icons/          # Icon Set
+    └── icons/                 # Icon Set
 
 ## ✨ Features
 
