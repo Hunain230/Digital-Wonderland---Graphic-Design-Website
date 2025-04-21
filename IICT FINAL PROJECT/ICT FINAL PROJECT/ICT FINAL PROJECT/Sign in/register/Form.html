@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register your Account</title>
+   <link rel="stylesheet" href="form.css">
+</head>
+<body>
+    <h1>Register Your Account</h1>
+    <form action="Personal Information">
+        <div class="data">
+<div class="nde">
+    <p>Name: *<input type="text" name="name" required id="name"> </p>
+
+<p>Date of Birth: *<input type="date" name="Date" required id="Date"> </p> 
+<p>Email: *<input type="email" name="Email" required id="Email"></p>
+<fieldset>
+   
+    <p> <Legend>Gender</Legend>Male <input type="radio" name="Gender" id="male"> Female <input type="radio" name="Gender" id="Female"> </p>
+</fieldset>
+<p>New password * <input type="password"  name="Cvv" required id="cvv"></p>
+</div>
+
+</div>
+<div class="submit">
+<input type="submit" value="Register" onclick="work()">
+</div>
+
+   </form>
+   <script>
+    function work() {
+    var email = document.getElementById("Email").value;
+    var password = document.getElementById("cvv").value;
+    var name = document.getElementById("name").value;
+    var date = document.getElementById("Date").value;
+
+    if (email === "" || password === "" || name === "" || date === "") {
+        alert("Please fill these information first.");
+        return;
+    }
+
+    if (confirm("You are signed in completely!")) {
+        window.location.href = "imtinan.html"; 
+    }
+}
+
+   </script>
+</body>
+</html>

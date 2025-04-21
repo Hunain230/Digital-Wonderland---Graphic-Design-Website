@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>About Us</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #8da9c4;
+            color: #333;
+            background-image: linear-gradient(rgba(0,0,0,0.3),transparent 30%), url('texture.jpg');
+        }
+
+        header {
+            background-color: #13315c;
+            color: #eef4ed;
+            text-align: center;
+            padding: 1em 0;
+        }
+
+        header h1 {
+            margin: 0;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            animation: fadeInDown 1s ease-in-out;
+        }
+
+        main {
+            padding: 20px;
+            animation: fadeIn 2s ease-in-out;
+        }
+
+        .about {
+            background: #0b2545;
+            padding: 30px;
+            margin: 20px auto;
+            max-width: 600px;
+            box-shadow: 5px 10px 15px rgba(0, 0, 0, 0.5);
+            border-radius: 10%;
+            text-align: center;
+            animation: fadeInUp 1.5s ease-in-out;
+        }
+
+        .about img {
+            max-width: 30%;
+            height: auto;
+            border-radius: 10px;
+            margin-bottom: 20px;
+            animation: fadeIn 2s ease-in-out;
+        }
+
+        .about h2 {
+            color: #eef4ed;
+            animation: fadeIn 1.5s ease-in-out;
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #134074;
+            color: #eef4ed;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            animation: fadeInUp 1s ease-in-out;
+        }
+
+        .about p {
+            color: #eef4ed;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            animation: fadeIn 2s ease-in-out;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+
+        @keyframes fadeInDown {
+            from {
+                transform: translateY(-20px);
+                opacity: 0;
+            }
+            to {
+                transform: translateY(0);
+                opacity: 1;
+            }
+        }
+
+        @keyframes fadeInUp {
+            from {
+                transform: translateY(20px);
+                opacity: 0;
+            }
+            to {
+                transform: translateY(0);
+                opacity: 1;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>About Us</h1>
+    </header>
+    <main>
+        <section class="about">
+            <img src="team.png" alt="Our Team">
+            <img src="team1.png" alt="Our Team">
+            <h2>Welcome to Your Digital Wonderland!</h2>
+            <p>Hi there, I’m Muhammad Imtinan ul Haq and my partner Hunain Shahid. We are currently pursuing a degree in Computer Science at FAST University. Alongside my studies, I bring three years of experience as a graphic designer. Passionate about blending technology and creativity, we strive to push the boundaries of what's possible in both fields. Whether coding or crafting compelling visuals, we are all about creating impactful and innovative solutions.</p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Your Company. All rights reserved.</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,292 @@
+/* Reset body and html margins and padding */
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #3f423e;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 20px 0;
+    z-index: 1000;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar ul li {
+    padding: 10px 20px;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.2em;
+    display: block;
+    position: relative;
+}
+
+.navbar ul li a::after {
+    content: "";
+    width: 0;
+    height: 1px;
+    position: absolute;
+    bottom: -8px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: white;
+    transition: width 0.3s ease;
+}
+
+.navbar ul li a:hover::after {
+    width: 50%;
+}
+
+/* Overlay Text Style */
+.overlay-text {
+    color: whitesmoke;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.overlay-text h1 {
+    font-size: 3em;
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+.overlay-text p {
+    font-size: 1.5em;
+    margin-top: 10px;
+}
+
+/* Top Image Section */
+.top-image {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    background-image: url('main.png');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 100px;
+}
+
+/* Full-Screen Background */
+#logo-design {
+    position: relative;
+    background-image: url('bg.webp');
+    background-size: cover;
+    background-position: center;
+    height: 105vh;
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+#logo-design .overlay {
+    width: 100%;
+    padding: 20px 0;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+#logo-design .overlay h1 {
+    font-size: 48px;
+    margin: 0;
+}
+
+/* Add space between the heading and logo items */
+#logo-design .content {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    flex-wrap: wrap;
+    margin-top: 70px; /* Add space between heading and logo items */
+}
+
+.logo-item img {
+    height: 300px;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+
+.logo-item p {
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+#thumbnails {
+    position: relative;
+    background-image: url('thumbbg.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 105vh;
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+#thumbnails .overlay {
+    width: 100%;
+    padding: 20px 0;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+#thumbnails .overlay h1 {
+    font-size: 48px;
+    margin: 0;
+}
+
+/* Add space between the heading and thumbnail items */
+#thumbnails .content {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    flex-wrap: wrap;
+    margin-top: 80px; /* Add space between heading and thumbnail items */
+}
+
+.thumbnail {
+    position: relative;
+    width: 30%;
+}
+
+.thumbnail img {
+    height: 200px;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+
+.thumbnail .overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    background: rgba(0, 0, 0, 0.6);
+    padding: 10px;
+}
+
+
+#web-design.service-category {
+    position: relative;
+    background-image: url('bgweb.jpg'); /* Replace with your web design background image */
+    background-size: cover;
+    background-position: center;
+    height: 105vh;
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+#web-design h2 {
+    font-size: 48px;
+    margin: 0;
+    padding: 10px 20px; /* Padding around the text */
+    display: inline-block;
+    background-color: rgba(9, 5, 5, 0.566); /* Black background to highlight */
+    color: white; /* Ensure text is white */
+    z-index: 2;
+    width: 100%; /* Make the background span the full width */
+    text-align: center;
+}
+
+#web-design .content {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    flex-wrap: wrap;
+    margin-top: 80px; /* Space between heading and items */
+}
+
+.web-item {
+    position: relative;
+    width: 30%;
+    text-align: center;
+}
+
+.web-item img {
+    height: 200px;
+    object-fit: cover;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+
+.web-item p {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* Overlay effect for each item */
+.web-item .overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    background: rgba(0, 0, 0, 0.6);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.add-to-cart {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: 10px;
+    width: 100%;
+}
+
+.add-to-cart:hover {
+    background-color: #0056b3;
+}
+
+.add-to-cart:active {
+    background-color: #003580;
+    transform: scale(0.98);
+}

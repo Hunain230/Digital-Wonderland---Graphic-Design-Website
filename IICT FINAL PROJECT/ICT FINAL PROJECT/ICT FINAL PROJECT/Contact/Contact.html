@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Information</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+
+        body {
+            background-image: url('1contact.jpg');
+         
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            color: #fff;
+            padding: 20px;
+        }
+
+        .backbox {
+        width: 600px;
+         background: transparent;
+   
+        backdrop-filter: blur(20px);
+        box-shadow: 0 0 10px rgba(0, 0, 0, 5);
+        color: white;
+        border-radius: 20px;
+        padding: 50px 50px;
+        animation: fadeInUp 1.5s ease-in-out;
+        }
+
+        header h1 {
+            font-size: 2em;
+            margin-bottom: 10px;
+            animation: slideIn 1.5s ease-in-out;
+        }
+
+        header p {
+            margin-bottom: 20px;
+            animation: slideIn 1.5s ease-in-out 0.3s;
+        }
+
+        .contact-info {
+            animation: fadeInUp 1s ease-in-out 0.5s;
+        }
+
+        .info-item {
+            margin-bottom: 20px;
+            animation: fadeInUp 1s ease-in-out 0.7s;
+        }
+
+        .info-item h2 {
+            font-size: 1.5em;
+            margin-bottom: 5px;
+            animation: fadeInUp 1s ease-in-out 0.9s;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+
+        @keyframes slideIn {
+            from {
+                transform: translateY(-50px);
+                opacity: 0;
+            }
+            to {
+                transform: translateY(0);
+                opacity: 1;
+            }
+        }
+
+        @keyframes fadeInUp {
+            from {
+                transform: translateY(20px);
+                opacity: 0;
+            }
+            to {
+                transform: translateY(0);
+                opacity: 1;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="backbox">
+        <header>
+            <h1>Contact Information</h1>
+            <p>Feel free to reach out to me using the information below.</p>
+        </header>
+        <div class="contact-info">
+            <div class="info-item">
+                <h2>Email</h2>
+                <p>imtinanulhaq@gmail.com</p>
+            </div>
+            <div class="info-item">
+                <h2>Phone</h2>
+                <p>03096086501</p>
+            </div>
+            <div class="info-item">
+                <h2>Instagram</h2>
+                <p>m_imtinan_ul_haq</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

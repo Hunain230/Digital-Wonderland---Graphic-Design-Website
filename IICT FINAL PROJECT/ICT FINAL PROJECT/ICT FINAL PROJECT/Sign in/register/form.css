@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "poppins",sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url(back0.jpg) no-repeat center ;
+    background-size: cover;
+    font-weight: 300;
+    animation: fadeInUp 1.5s ease-in-out;
+}
+
+body h1{
+    font-size: 70px;
+    width: 500px;
+    color: #ffffff;
+    text-align: left;
+    text-decoration: none;
+    text-shadow: 1px 1px 2px black;
+    margin-right: 90px;
+    margin-bottom: 40px;
+    animation: fadeInUp 1.5s ease-in-out;
+}
+
+
+.data{
+
+    font-size: 30px;
+    padding: 25px;
+    margin: 5px;
+    animation: fadeInUp 1.5s ease-in-out;
+}
+.data .nde{
+    background: transparent;
+    backdrop-filter: blur(20px);
+    border: none;
+    outline: none;
+    border: 2px solid rgba(255, 255, 255, .2);
+    border-radius: 40px;
+    font-size: 20px;
+    color: #ffffff;
+    padding: 30px 30px 30px 30px;
+    margin-bottom: 80px;
+    animation: fadeInUp 1.5s ease-in-out;
+
+}
+.data .nde p text {
+    background: transparent;
+    outline: rgb(121, 121, 121);
+    color: #ffffff;
+    animation: fadeInUp 1.5s ease-in-out;
+}
+
+.data .nde fieldset{
+    padding: 5px 10px 5px;
+    color: #ffffff;
+    animation: fadeInUp 1.5s ease-in-out;
+}
+input[type=text],
+input[type=email],
+input[type=number],
+input[type=password],
+input[type=date],
+select,
+textarea{
+    width: 100%;
+    padding: 5px;
+    border: 1px solid rgb(92, 92, 92);
+    border-radius: 12px;
+    background-color: rgba(255, 255, 255, 0.288) ;
+    animation: fadeInUp 1.5s ease-in-out;
+
+}
+fieldset{
+    font-weight: 500;
+  
+    padding: 12px;
+    border-radius: 20px;
+    margin: 10px 10px 10px;
+    animation: fadeInUp 1.5s ease-in-out;
+}
+input[type="submit"]{
+
+    background-color: rgba(133, 133, 133, 0.357);
+    font-size: 20px;
+    color: #ffffff;
+    border-radius: 50px;
+    padding: 10px 10px 10px;
+    
+    width: 13%;
+    position:absolute;
+    bottom: 50px;
+    right: 185px ;
+    
+    
+    animation: fadeInUp 1.5s ease-in-out;
+    cursor: pointer;
+}
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

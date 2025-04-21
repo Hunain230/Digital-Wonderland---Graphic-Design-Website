@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Connect with us</title>
+    <link rel="stylesheet" href="Signin.css">
+</head>
+<body>
+   <div class="Form"> 
+    <form id="loginForm">
+        <h1>Connect with us</h1>
+        <div class="input-box">
+            <input type="email" id="email" placeholder="Email" required>
+        </div>
+        <div class="input-box">
+            <input type="password" id="password" placeholder="Password" required>
+        </div>    
+        <div class="remember-forget">
+            <label><input type="checkbox"> Remember me</label>
+            <a href="#">Forgot Password</a>
+        </div>
+        <button type="button" class="btn" onclick="work()">Login</button>
+        <div class="register-Link">
+            <p>Don't have an account? <a href="register/Form.html">Register</a></p>
+        </div>
+    </form> 
+   </div>
+
+   <script>
+    function work() {
+        var email = document.getElementById("email").value;
+        var password = document.getElementById("password").value;
+
+        if (email === "" || password === "") {
+            alert("Please fill these information first.");
+            return;
+        }
+
+        if (confirm("You are signed in completely!")) {
+            window.location.href = "imtinan.html"; 
+        }
+    }
+   </script>
+</body>
+</html>
