@@ -9,8 +9,8 @@ This project is being developed locally. You can view it by opening the `index.h
 ## 📁 Project Structure
 DigitalWonderland/
 
-│
-├── index.html            \
+└──
+ index.html            \
 ├── about.html            \
 ├── products.html           \
 ├── signin.html           \
@@ -26,9 +26,9 @@ DigitalWonderland/
 \
 │   └── script.js            
 
-└── assets
+|── assets
 \
-    ├── images/               
+    └── images/               
  \   
     └── icons/              
 
