@@ -27,9 +27,9 @@ DigitalWonderland/
 │   └── script.js            
 
 |── assets
-
+/
     └── images        
- 
+/ 
     └── icons           
 
 ## ✨ Features
