@@ -21,17 +21,17 @@ DigitalWonderland/
 ├── portfolio.html    
 \
 ├── cart.html          
-\
 
-├── css/
+
+├── css
 \
 │   └── styles.css            
 
-├── js/
+├── js
 \
 │   └── script.js            
 
-└── assets/
+└── assets
 \
     ├── images/               
  \   
