@@ -27,9 +27,8 @@ This project is being developed locally. You can view it by opening the `index.h
 \
     ├── images             
     └── icons             
-i have worked on this 
-this is correct one 
-check this out 
+
+ 
 ## ✨ Features
 
 - 🎨 Beautiful and clean UI for a creative digital brand
