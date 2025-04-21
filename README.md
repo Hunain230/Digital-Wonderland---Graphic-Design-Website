@@ -2,29 +2,27 @@
 
 Welcome to **Digital Wonderland** – a creative and immersive graphic design portfolio website showcasing modern design, interactive features, and user-friendly navigation.
 
-## 🌐 Live Preview
-[🔗 Visit Digital Wonderland](#) <!-- Replace # with your deployed site URL -->
+## 🌐 Local Preview
 
----
+This project is being developed locally. You can view it by opening the `index.html` file in your browser.
 
 ## 📁 Project Structure
-
-DigitalWonderland/ 
-│├── index.html # Home Page
-├── about.html # About Us 
-├── products.html # Our Products 
+DigitalWonderland/
+│
+├── index.html # Home Page
+├── about.html # About Us
+├── products.html # Our Products
 ├── signin.html # Sign In / Sign Up
-├── portfolio.html # Portfolio Gallery 
+├── portfolio.html # Portfolio Gallery
 ├── cart.html # Shopping Cart
-├── css/ 
-│└── styles.css # Custom Styles 
+├── css/
+│ └── styles.css # Custom Styles
 ├── js/
-│└── script.js # Interactivity 
-└── assets/ 
-├── images/ # Graphic Assets 
+│ └── script.js # Interactivity
+└── assets/
+├── images/ # Graphic Assets
 └── icons/ # Icon Set
 
----
 
 ## ✨ Features
 
@@ -34,18 +32,21 @@ DigitalWonderland/
 - 🔐 User-friendly Sign In/Sign Up interface
 - 📱 Responsive layout for mobile and desktop
 
----
-
 ## 🛠️ Tech Stack
 
 - HTML5  
 - CSS3  
-- JavaScript   
-
----
+- JavaScript  
+- Git & GitHub for version control  
 
 ## 🚀 Getting Started
 
-1. Clone the repository:
+ Clone the repository:
    ```bash
    git clone https://github.com/your-username/DigitalWonderland.git
+
+💬 Connect
+For feedback or collaboration:
+
+📧 Email: shunain230@gmail.com
+💼 Linkedin: https://www.linkedin.com/in/hunain-shahid-b27201278/
