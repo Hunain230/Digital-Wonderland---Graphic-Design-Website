@@ -7,9 +7,32 @@ Welcome to **Digital Wonderland** – a creative and immersive graphic design po
 This project is being developed locally. You can view it by opening the `index.html` file in your browser.
 
 ## 📁 Project Structure
-DigitalWonderland/
 
-DigitalWonderland/ │ ├── index.html # Home Page ├── about.html # About Us ├── products.html # Our Products ├── signin.html # Sign In / Sign Up ├── portfolio.html # Portfolio Gallery ├── cart.html # Shopping Cart ├── css/ │ └── styles.css # Custom Styles ├── js/ │ └── script.js # Interactivity └── assets/ ├── images/ # Graphic Assets └── icons/ # Icon Set
+│
+├── index.html            \
+├── about.html            \
+├── products.html           \
+├── signin.html           \
+├── portfolio.html    \
+├── cart.html          
+
+
+├── css
+\
+│   └── styles.css            
+
+├── js
+\
+│   └── script.js            
+
+└── assets
+\
+    ├── images/               
+ \   
+    └── icons/              
+i have worked on this 
+this is correct one 
+check this out 
 ## ✨ Features
 
 - 🎨 Beautiful and clean UI for a creative digital brand
