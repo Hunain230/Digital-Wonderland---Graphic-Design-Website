@@ -10,12 +10,19 @@ This project is being developed locally. You can view it by opening the `index.h
 DigitalWonderland/
 
 │
+\
 ├── index.html               # Home Page
+\
 ├── about.html               # About Us
+\
 ├── products.html            # Our Products
+\
 ├── signin.html              # Sign In / Sign Up
+\
 ├── portfolio.html      # Portfolio Gallery
+\
 ├── cart.html           # Shopping Cart
+\
 
 ├── css/
 \
